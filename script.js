@@ -94,8 +94,14 @@ function showReduce (){
 
 function showFilter (){
 
+  const arrayVeganFilter = menuOptions.filter( (item) =>{
 
+    if ( item.vegan == true) { return true}
+    else {return false}
 
+  })
+  showAll(arrayVeganFilter)
+ 
 
 }
 
