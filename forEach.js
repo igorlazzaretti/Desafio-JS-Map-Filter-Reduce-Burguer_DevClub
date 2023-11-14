@@ -1,10 +1,10 @@
 
 const varUl = document.querySelector('ul')
-let varMyLi = ''
 
 const buttonforEach = document.querySelector('#forEach-button')
 
 function showAll(){
+    let varMyLi = ''
 menuOptions.forEach( (products) => {
     varMyLi += 
     `
