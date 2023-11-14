@@ -48,9 +48,11 @@ function showMap(){
     showAll(newPricesMap);
 
     varBody.style.backgroundColor = 'red';
+    alert("Aproveite seu desconto enquanto a tela estiver vermelha, você tem apenas 1 Segundo!!!")
 
     function DezSegundos(){
         varBody.style.backgroundColor = 'black';
+        showAll(menuOptions) 
     }
     setTimeout(DezSegundos, 1000*1);
 
