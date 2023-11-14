@@ -4,6 +4,8 @@ const varUl = document.querySelector('ul')
 
 const buttonforEach = document.querySelector('#forEach-button')
 const buttonMap     = document.querySelector('#map-button')
+const buttonReduce  = document.querySelector('#reduce-button')
+const buttonFilter  = document.querySelector('#filter-button')
 
 
 function showAll(array){
@@ -48,10 +50,12 @@ function showReduce (){
 
 
 
+
 }
 
 function showFilter (){
 
+    
 
 
 }
