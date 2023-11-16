@@ -72,8 +72,8 @@ function showReduce() {
   }, 0);
   console.log(arrayReduce);
 
-  varUl.innerHTML = ` <li style="color:white"> A soma de Todos os Valores do Cardápio é de ${formatCurrency(arrayReduce)}</li>
-    <li style="color:white"> A soma de Todos os Valores do Cardápio com 10% de Desconto é de ${formatCurrency(arrayReduceTen)}</li>
+  varUl.innerHTML = ` <li style="color:white"> A soma de Todos os Valores do Cardápio é de <b style="color:green">${formatCurrency(arrayReduce)}</b></li>
+    <li style="color:white"> A soma de Todos os Valores do Cardápio com 10% de Desconto é de <b style="color:red">${formatCurrency(arrayReduceTen)}</b></li>
     `;
 }
 
